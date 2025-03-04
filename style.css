@@ -1,0 +1,42 @@
+.container{
+  border:dotted blue 1px;
+  <div class="container">
+  <div class="inner-container">
+      <h1>Welcome to our community!</h1>
+</div>
+</div>
+  
+  
+  
+}
+.inner-container{
+  border:solid aqua 2px;
+  padding: 20px;
+  margin: 5%;
+}
+
+  .split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background-color: plum;
+  }
+  
+  .right {
+    right: 0;
+    background-color:plum;
+  }
+  img{
+    width: 60%;
+  }
+  
+
+

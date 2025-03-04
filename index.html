@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="style.css">
+    <style>
+        form{ 
+              border: solid 1px;
+              margin: 60px auto;
+              width: 30%;
+              height:40%;
+              padding: 30px;
+              box-shadow: black;
+          }
+  
+  #name{
+      width: 90%;
+      padding: 8px 12px;
+      margin: 5px 0;
+      border:solid 1px;
+  }
+  
+      #email{
+      width: 90%;
+      padding: 8px 12px;
+      margin: 5px 0;
+      border:solid 1px;
+      }
+  
+      #password{
+      width: 90%;
+      padding: 8px 12px;
+      margin: 5px 0;
+      border:solid 1px;
+      }
+      hr-lines{
+        position: relative;
+        max-width: 500px;
+        margin: 100px auto;
+        text-align: center;
+      }
+      
+      .hr-lines:before{
+        content:" ";
+        height: 2px;
+        width: 130px;
+        background: black;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 0;
+      }
+      
+      .hr-lines:after{
+        content:" ";
+        height: 2px;
+        width: 130px;
+        background:black;
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+      }
+              input{
+                  padding: 8px 12px;
+                  margin: 5px 0;
+                  
+              
+              }
+              #submit_button{
+                  background: none;
+                  border: 1px solid;
+                  border-radius: 5px;
+                  padding: 12px 8px;
+                  background-color: purple;
+                  color: white;
+                  cursor: pointer;
+                  margin: 10px 0;
+                  width: 95%;
+                  
+                  }
+               .icons{
+                  font-size: 45px;
+                  text-align: center;
+                  justify-content: center;
+                  display: flex; gap: 35px;
+               }  
+               a {
+                  color: black;
+               } 
+               </style>
+
+</head>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<i class="fa-brands fa-google"></i>
+<i class="fa-brands fa-facebook"></i>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <h1>Welcome to our community!</h1>
+     </div>
+    <div class="split left">
+        <div class="center"><img src="https://docs.simplecheckoutbuilder.com/wp-content/uploads/2024/04/pana.svg"></div></div>
+    <form>
+        <div class="split right">
+        <h1>Create Account</h1>
+            
+                <p></p>Sign Up to your account below.</p>
+        <label="name">First name</label>
+        <br>
+        <input type="text"id="name" placeholder="name"/>
+        <br>
+        <label for="last name">Last name</label>
+        <br>
+        <input type="text" id="last name" placeholder="last name">
+        <label for="email">Email</label>
+        <br>
+        <input type="email" id="email" placeholder="Enter email address"/>
+        <br>
+        <label for="password">password</label>
+        <br>
+        <input type="password" placeholder="Enter password" id="password"/>
+        <br>
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">Ive Read And Agreed With The Terms Of service And Our Privacy Policy</label>
+        <br>
+        
+        
+        <button type="submit"id="submit_button">Create Account</button>
+        <h2 class="hr-lines">Already have an account?Sign in</h2>
+        <div class="icons">
+            <i class="fa-brands fa-google"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+
+
+
+        </div>
+        
+
+    </form>
+    
+     
+    
+    
+</body>
+</html>
